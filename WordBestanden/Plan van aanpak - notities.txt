@@ -9,7 +9,8 @@ Project Organisatie: Korte omschrijvingen geven van de rollen. (DONE!)
 Planning: Planning van Asasana.com toevoegen/uitprinten. (Danny)
 
 18-02-2014	12:37	Notule: Menno
-Versie nummer: Klopt niet meer
-Project activiteiten: Afgemaakt webapp toevoegen, met als activiteiten o.a. rss feed, search box etc.
-Kwaliteit: Per mijlpaal punt omschrijven hoe wij leveren en omschrijven.
+(DONE) 	Versie nummer: Klopt niet meer 
+(DONE) 	Project activiteiten: Afgemaakt webapp toevoegen, met als activiteiten o.a.
+	rss feed, search box etc.
+(Done)	Kwaliteit: Per mijlpaal punt omschrijven hoe wij leveren en omschrijven.
 Planning: Van Asana uitprinten en toevoegen aan Plan van aanpak.

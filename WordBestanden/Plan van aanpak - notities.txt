@@ -2,8 +2,8 @@
 Projectactiviteiten: Nog goed doorlezen.
 Kwaliteit: Gebruik van een testplan en acceptatietest?
 	Laten testen door o.a. APO/2de jaars en/of studenten van een andere opleiding.
-	Reacties = Feedback
-	Welke soorten tests willen wij gaan gebruiken?
-	Menno: Misschien W3c validator voor html en css?
-Project Organisatie: Korte omschrijvingen geven van de rollen.
-Planning: Planning van Asasana.com toevoegen/uitprinten.
+	Reacties = Feedback (DONE)
+	Welke soorten tests willen wij gaan gebruiken? (DONE)
+	Menno: Misschien W3c validator voor html en css? (DONE)
+Project Organisatie: Korte omschrijvingen geven van de rollen. (DONE!)
+Planning: Planning van Asasana.com toevoegen/uitprinten. (Danny)

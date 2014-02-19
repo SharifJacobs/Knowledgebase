@@ -16,8 +16,8 @@ a {
 }
 
 header img {
-	margin:0 auto;
-	float:left;
+	display:block;
+	margin:0px auto;
 }
 
 nav ul {

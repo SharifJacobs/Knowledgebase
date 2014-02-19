@@ -6,8 +6,18 @@
 #container {
 	width:1280px;
 	margin:0 auto;
-	background:gray;
+	background: #00f0ff;
 	height:1200px;
+}
+
+hr{
+border:none;
+background: #fff;
+height: 1px;
+width: 98%;
+display: block;
+margin: 10px auto 0 auto;
+
 }
 
 a {
@@ -42,7 +52,12 @@ nav ul li a {
 	font-size:16px;
 	line-height:30px;
 	width:256px;
-	background:blue;
+	background: #0083ff;
+}
+
+nav ul li a:hover{
+	background: #00f0ff;
+	color: #000;
 }
 
 #content-wrapper {
@@ -51,6 +66,7 @@ nav ul li a {
 	height:700px;
 	margin-left:20px;
 	margin-top:20px;
+	float:left;
 }
 
 .content {
@@ -58,4 +74,46 @@ nav ul li a {
 	background:red;
 	margin:0 auto;
 	margin-top:20px;
+}
+
+aside, #content-wrapper{
+	display:inline-block;
+}
+
+aside{
+	float:right;
+}
+
+aside .sideblock{
+	min-height:300px;
+	width:300px;
+	background: violet;
+	margin: 20px 125px 20px 50px;
+}
+
+.clear{
+	clear:both;
+}
+
+footer{
+margin: 0 auto;
+background: grey;
+color: #fff;
+}
+
+footer ul{
+display:inline-block;
+margin: 0 130px;
+width: 150px;
+list-style:none;
+}
+
+footer ul li a:hover{
+text-decoration: underline;
+}
+
+footer p{
+text-align: center;
+padding: 10px;
+display: block;
 }

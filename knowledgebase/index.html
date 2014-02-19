@@ -6,12 +6,12 @@
 </head>
 <body>
 
+
+<div id="container">
 <header>
 	<h1>Medbazen</h1>
 	<a href=""><img src="assets/img/header-noshadow.png"/></a>
 </header>
-
-<div id="container">
 
 <nav>
 	<ul>
@@ -42,15 +42,20 @@
 
 <aside>
 	<div class="sideblock">
-		<h2>Login</h2>
+		<span>Login</span>
+		<form action="" type="post">
+		<label>Username: <input type="text" name="username" /></label>
+		<label>Password: <input type="text" name="pasword"/></label>
+		<input class="submit" type="submit" name="submit" value="Submit" />
+		</form>
 	</div>
 	
 	<div class="sideblock">
-		<h2>Twitter</h2>
+		<span>Twitter</span>
 	</div>
 	
 	<div class="sideblock">
-		<h2>News</h2>
+		<span>News</span>
 	</div>
 </aside>
 
@@ -85,7 +90,7 @@
 	</ul>
 	
 	<hr>
-	<p>Knowledge database by Sven, Menno und Danny - 2014</p>
+	<p>Knowledge database by Sven, Menno and Danny - 2014</p>
 </footer>
 </div>
 <script src="assets/js/jQuery-library.js"></script>

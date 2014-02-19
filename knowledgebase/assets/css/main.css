@@ -80,15 +80,32 @@ aside, #content-wrapper{
 	display:inline-block;
 }
 
-aside{
+aside{ /* Sidebar on the right */
 	float:right;
 }
 
 aside .sideblock{
-	min-height:300px;
+	min-height:300px; /* Remove this later on */
 	width:300px;
 	background: violet;
 	margin: 20px 125px 20px 50px;
+}
+
+aside .sideblock label{
+	float:left;
+	width:100%;
+	margin: 10px;
+}
+
+aside .sideblock span{
+margin: 10px;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+aside .submit{
+	margin: 20px auto;
+	display:block;
 }
 
 .clear{
@@ -96,24 +113,28 @@ aside .sideblock{
 }
 
 footer{
-margin: 0 auto;
-background: grey;
-color: #fff;
+	margin: 0 auto;
+	background: grey;
+	color: #fff;
 }
 
 footer ul{
-display:inline-block;
-margin: 0 130px;
-width: 150px;
-list-style:none;
+	display:inline-block;
+	margin: 0 130px;
+	width: 150px;
+	list-style:none;
+}
+
+footer ul li{
+	margin-left: 5px;
 }
 
 footer ul li a:hover{
-text-decoration: underline;
+	text-decoration: underline;
 }
 
 footer p{
-text-align: center;
-padding: 10px;
-display: block;
+	text-align: center;
+	padding: 10px;
+	display: block;
 }

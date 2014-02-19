@@ -1,0 +1,20 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+
+#container {
+	width:1280px;
+	margin:0 auto;
+	background:gray;
+	height:1200px;
+}
+
+header {
+	/*Placeholder for image*/
+}
+
+nav ul {
+	text-align:center;
+	margin:0 auto;
+}

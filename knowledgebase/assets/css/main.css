@@ -40,3 +40,12 @@ nav ul li a {
 	width:256px;
 	background:blue;
 }
+
+#content-wrapper {
+	max-width:700px;
+	background:green;
+}
+
+.content {
+	max-width:600px;
+}

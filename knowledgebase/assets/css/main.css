@@ -15,8 +15,8 @@ a {
 	color:white;
 }
 
-header {
-	/*Placeholder for image*/
+header img {
+	margin:0 auto;
 }
 
 nav ul {

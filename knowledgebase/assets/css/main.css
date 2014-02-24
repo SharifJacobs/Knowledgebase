@@ -7,7 +7,6 @@
 	width:1280px;
 	margin:0 auto;
 	background: #00f0ff;
-	min-height:1200px; /* Remove this later on */
 }
 
 hr{
@@ -36,6 +35,26 @@ header h1 {
 	font-size:0px;
 }
 
+nav{
+	background: #0083ff;
+}
+
+nav .search{
+	width: 200px;
+	float:left;
+	height: 22px;
+	margin-top: 2px;
+	border-bottom: 4px solid #0083ff;
+}
+
+nav .submit-search{
+	width:60px;
+	height: 26px;
+	margin-top: 3px;
+	border-bottom: 3px solid #0083ff;
+	margin-left: 10px;
+}
+
 nav ul {
 	font-size:0px;
 	text-align:center;
@@ -44,14 +63,15 @@ nav ul {
 
 nav ul li {
 	display:inline-block;	
-	width:256px;
+	width:200px;
+	float:left;
 }
 
 nav ul li a {
 	display:block;
 	font-size:16px;
 	line-height:30px;
-	width:256px;
+	width:200px;
 	background: #0083ff;
 }
 
@@ -61,15 +81,15 @@ nav ul li a:hover{
 }
 
 #content-wrapper {
-	width:700px;
+	width:660px;
 	background:green;
-	min-height:700px; /* Remove this later on */
-	margin: 0 20px;
+	padding: 20px;
+	padding-top:0;
+	margin: 20px;
 	float:left;
 }
 
 .content {
-	max-width:680px;
 	background:red;
 	margin:0 auto;
 	margin-top:20px;
@@ -84,7 +104,7 @@ aside{ /* Sidebar on the right */
 }
 
 aside .sideblock{
-	min-height:300px; /* Remove this later on */
+	min-height:250px; /* Remove this later on */
 	width:300px;
 	background: violet;
 	margin: 20px 125px 20px 50px;
